@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Professional Car Driver</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f7f9fc;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #0d1a26;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 3rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #0d1a26;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+      border-left: 4px solid #007BFF;
+      padding-left: 0.5rem;
+    }
+
+    p, li, label {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 1.5rem;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #007BFF;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+
+    form input, form textarea, form button {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+
+    form button {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    form button:hover {
+      background-color: #218838;
+    }
+
+    footer {
+      background-color: #0d1a26;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      nav a {
+        display: block;
+        margin: 0.5rem 0;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hire a Professional Car Driver</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#booking">Booking</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Need a Driver for Your Own Car?</h2>
+    <p>Looking for a safe, reliable, and experienced driver to drive your car? I provide professional driver services for your daily commute, long trips,Local in city or special occasions. Enjoy a smooth and stress-free ride in your own vehicle.</p>
+    <a href="#booking" class="btn">Book Now</a>
+  </section>
+
+  <section id="about">
+    <h2>About the Driver</h2>
+    <p>I'm a licensed and experienced driver with 20+ years on the road. I specialize in driving customer-owned vehicles with care, punctuality, and utmost professionalism.And trained in defensive driving techniques.</p>
+  </section>
+
+  <section id="services">
+    <h2>Services Offered</h2>
+    <ul>
+      <li>Hourly or Daily Driving</li>
+      <li>Airport Pickup & Drop</li>
+      <li>Long Distance Trips</li>
+      <li>Local Trips(1000rs for 8hrs)</li>
+      <li>Valet or Standby Services</li>
+    </ul>
+  </section>
+
+  <section id="booking">
+    <h2>Booking Form</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="name">Vehicle Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="pickup">Pickup Location:</label>
+      <input type="text" id="pickup" required>
+
+      <label for="datetime">Date & Time:</label>
+      <input type="datetime-local" id="datetime" required>
+
+      <label for="phone">Contact Number:</label>
+      <input type="tel" id="phone" required>
+
+      <button type="submit">Submit Booking</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📞 <strong>Phone:</strong> Your Contact No </p>
+    <p>📧 <strong>Email:</strong> xyz@gmail.com</p>
+    <p>💬 <strong>WhatsApp:</strong> <a href="https://wa.me/123456789" target="_blank" class="btn">Chat Now</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Professional Driver Service. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
